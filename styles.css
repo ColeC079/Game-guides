@@ -1,7 +1,6 @@
-$primary-color: #ffffff; 
-$secondary-color: #6c757d; 
-$accent-color: #ffc107; 
-$background-color: #f8f9fa; 
+    :root {
+      --primary-color: #007bff;
+    }
 
 * {
   box-sizing: border-box;
@@ -11,7 +10,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: $primary-color;
+  background-color: 
 }
 
 nav {
