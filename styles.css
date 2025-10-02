@@ -1,7 +1,7 @@
-$primary-color: #007bff; 
-$secondary-color: #6c757d; 
-$accent-color: #ffc107; 
-$background-color: #f8f9fa; 
+$primary-color: #00aeef; 
+$secondary-color: #1db954; 
+$accent-color: #fff000; 
+$background-color: #191414; 
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #00aeef;
 }
 
 nav {
@@ -22,7 +22,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  background-color: #191414;
 }
 
 nav a {
@@ -33,12 +33,12 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: #fff000;
 }
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #d4d4d4;
+  background-color: #1db954;
 }
 
 main {
