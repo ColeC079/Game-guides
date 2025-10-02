@@ -10,8 +10,8 @@ $background-color: #191414;
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: black;
-  background-color: #00aeef;
+  color: #00aeef;
+  background-color: #191414;
 }
 
 nav {
