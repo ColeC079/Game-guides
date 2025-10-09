@@ -7,10 +7,6 @@ $background-color: #191414;
   box-sizing: border-box;
 }
 
-.container {
-  flex-wrap: row | row-wrap | column;
-}
-
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
