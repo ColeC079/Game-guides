@@ -7,6 +7,9 @@ $background-color: #191414;
   box-sizing: border-box;
 }
 
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
