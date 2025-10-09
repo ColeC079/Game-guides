@@ -7,6 +7,11 @@ $background-color: #191414;
   box-sizing: border-box;
 }
 
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
