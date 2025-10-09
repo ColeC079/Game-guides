@@ -28,7 +28,7 @@ nav {
   background-color: #191414;
 }
 
-nav a {
+nav a: hover {
   display: inline-block;
   min-width: 9rem;
   padding: 0.5rem;
