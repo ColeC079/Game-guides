@@ -11,6 +11,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   font-weight: bold;
+  word-spaceing: 1;
   color: #00aeef;
   background-color: #191414;
 }
