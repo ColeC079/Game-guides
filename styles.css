@@ -7,7 +7,7 @@ $background-color: #191414;
   box-sizing: border-box;
 }
 
-body {
+body: hover {
   margin: 0;
   font-family: system-ui, sans-serif;
   font-weight: bold;
