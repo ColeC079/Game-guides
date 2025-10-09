@@ -7,6 +7,19 @@ $background-color: #191414;
   box-sizing: border-box;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 15px; 
+}
+
+.button {
+  padding: 12px 25px; 
+  border: 3px solid #007bff; 
+}
+
     .flex-container {
         display: flex;
         flex-direction: column;
