@@ -10,6 +10,7 @@ $background-color: #191414;
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
+  font-weight: bold;
   color: #00aeef;
   background-color: #191414;
 }
