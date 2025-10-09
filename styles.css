@@ -7,7 +7,7 @@ $background-color: #191414;
   box-sizing: border-box;
 }
 
-body: hover {
+body {
   margin: 0;
   font-family: system-ui, sans-serif;
   font-weight: bold;
@@ -39,7 +39,7 @@ nav a {
   color: #fff000;
 }
 
-nav a[aria-current='page'] {
+nav a: hover [aria-current='page'] {
   color: #000;
   background-color: #1db954;
 }
