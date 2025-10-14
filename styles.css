@@ -3,6 +3,10 @@ $secondary-color: #1db954;
 $accent-color: #fff000; 
 $background-color: #191414; 
 
+parent {
+  display: flex;
+  
+
 * {
   box-sizing: border-box;
 }
