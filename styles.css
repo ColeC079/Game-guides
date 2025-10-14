@@ -5,6 +5,7 @@ $background-color: #191414;
 
 parent {
   display: flex;
+}
   
 
 * {
