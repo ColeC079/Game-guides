@@ -3,7 +3,7 @@ $secondary-color: #1db954;
 $accent-color: #fff000; 
 $background-color: #191414; 
 
-parent {
+.parent {
   display: flex;
   padding: 1rem;
   gap: 1rem;
