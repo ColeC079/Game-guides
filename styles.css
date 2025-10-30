@@ -18,6 +18,16 @@
   height: 200px;
 }
 
+.parents {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .child {
   border: solid 1px black;
   padding: 1rem;
@@ -67,8 +77,13 @@ body {
 }
 
 .picture {
- 
-  width: 50%;
+  width: 200%;
+}
+
+.pictures {
+  width: 45%;
+  border: soild 3px black;
+  min-width: 200px;
 }
 
 nav {
