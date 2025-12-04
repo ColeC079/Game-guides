@@ -58,12 +58,48 @@
 
       <form name="myform">
         Name, First and Last
-        <input type="text" name="othertext" />
-        <input type="submit" onclick="formSubmission ()" />
+        <input type="text" name="othertext" id="name" />
+        <input type="submit" onclick ="formSubmit ()" />
         <script>
           function formSubmission() {
             alert("The form was successfully submitted!");
           }
+        </script>
+        <script>
+        function formSubmit() {
+        const myVar = "this is a string";
+        console.log(myVar);
+        }
+        </script>
+        <script>
+          function formSubmit(){
+            const nameInput = document.getElementById("name").value;
+            console.log(nameInput);
+
+            alert("Thanks for submitting, " + nameInput)
+          }
+        </script>
+        <script>
+          function addNumbers(a,b){
+            return a + b;
+          }
+          console.log(addNumbers(4, 5));
+          console.log(addNumbers(1000, 54));
+          console.log(addNumbers(100000, 5));
+          console.log(addNumbers(6, 7));
+          console.log(addNumbers("apple", "orange"));
+
+          function subtractNumbers(numOne,numTwo){
+            const subbed = numOne - numTwo
+            return subbed;
+          }
+          console.log(subtractNumbers(4, 5));
+          console.log(subtractNumbers(1000, 54));
+          console.log(subtractNumbers(100000, 5));
+          console.log(subtractNumbers(6, 7));
+          console.log(subtractNumbers("apple", "orange"));
+
+
         </script>
       </form>
 
