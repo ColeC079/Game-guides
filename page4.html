@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Info</title>
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <meta
+    name="description"
+    content="Information and further description of this website"
+  />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <link rel="stylesheet" href="styles.css" />
+      <a href="/page2.html" aria-current="page">Gaming Guides</a>
+      <a href="/page3.html" aria-current="page">Stats</a>
+      <a href="/page4.html">Info</a>
+    </nav>
+    <main>
+      <h1>Info</h1>
+     
+      <h3>Information about the site.</h3>
+    
+      <p>
+        This website is a useful tool for all gamers to learn more about the
+        games they love and discover new games to play. It also provides gamers
+        with information on how to 100% complete the games they love. This
+        Website can also be helpful to people studying html becuase all pages,
+        information, links, and more were made with html.
+      </p>
+
+      <p>Fill out this form below to pick the next game to go on the website</p>
+
+      <form name="myform">
+        <div style="display: flex">
+          <input type="checkbox" />
+          Batman Arkham Knight
+        </div>
+      </form>
+
+      <form name="myform">
+        <div style="display: flex">
+          <input type="checkbox" />
+          Gears of War
+        </div>
+      </form>
+
+      <form name="myform">
+        <div style="display: flex">
+          <input type="checkbox" />
+          Metal Gear Soild Delta Remastered
+        </div>
+      </form>
+
+      <form name="myform">
+        <div style="display: flex">
+          <div style="gap: 0.5rem">
+            Today's Date
+            <input type="date" />
+          </div>
+        </div>
+      </form>
+
+      <form name="myform">
+        Name, First and Last
+        <input type="text" name="othertext" id="name" />
+        <input type="submit" onclick ="formSubmit ()" />
+        <script>
+          function formSubmission() {
+            alert("The form was successfully submitted!");
+          }
+        </script>
+        <script>
+        function formSubmit() {
+        const myVar = "this is a string";
+        console.log(myVar);
+        }
+        </script>
+        <script>
+          function formSubmit(){
+            const nameInput = document.getElementById("name").value;
+            console.log(nameInput);
+
+            alert("Thanks for submitting, " + nameInput)
+          }
+        </script>
+        <script>
+          function addNumbers(a,b){
+            return a + b;
+          }
+          console.log(addNumbers(4, 5));
+          console.log(addNumbers(1000, 54));
+          console.log(addNumbers(100000, 5));
+          console.log(addNumbers(6, 7));
+          console.log(addNumbers("apple", "orange"));
+
+          function subtractNumbers(numOne,numTwo){
+            const subbed = numOne - numTwo
+            return subbed;
+          }
+          console.log(subtractNumbers(4, 5));
+          console.log(subtractNumbers(1000, 54));
+          console.log(subtractNumbers(100000, 5));
+          console.log(subtractNumbers(6, 7));
+          console.log(subtractNumbers("apple", "orange"));
+const blue = true;
+const red = false;
+          if (blue == red ) {
+            console.log("Yay its true")
+          } else {
+console.log("No its false")
+          }
+
+
+        </script>
+      </form>
+
+      <div>Contact me at stu187759@Lynnschools.org</div>
+    </main>
+  </body>
+</html>
